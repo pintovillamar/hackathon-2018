@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+  background: #edf0f1;
+  padding: 80px 0 0 0;
+}
+
+body, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.noFill {
+  fill: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+
+  position: fixed;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+  background: #555555;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+header input {
+  width: 100%;
+  height: 50px;
+  float: left;
+  color: #555555;
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 18px;
+  padding: 0 60px 0 0;
+  background: #fff;
+  border-radius: 5px 25px 25px 5px;
+  border: 0px;
+
+  outline: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+header input::-webkit-input-placeholder {
+  color: #555555;;
+}
+
+header input:-moz-input-placeholder {
+  color:#555555;
+}
+
+header input::-moz-input-placeholder {
+  color: #555555;
+}
+
+header input:-ms-input-placeholder {
+  color: #555555;
+}
+
+header button {
+  width: 50px;
+  height: 50px;
+
+  position:absolute;
+  top:15px;
+  right:15px;
+  z-index:2;
+
+  border-radius: 25px;
+  background: rbga(55,55,55,0.2);
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+header button svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+}
+
+header button svg .fill{
+  fill: #555555;
+}
+
+
+map {
+  width: 100%;
+  height: 100%;
+  background: grey;
+  top: 0;
+  left: 0;
+  border: 0px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #555555;
+  color: white;
+  text-align: left;
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
